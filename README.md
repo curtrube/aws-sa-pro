@@ -1,1 +1,1 @@
-# aws-sa-pro
+# AWS Certified Solutions Architect - Professional
