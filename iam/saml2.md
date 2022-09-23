@@ -5,5 +5,5 @@
 - Idirectly used on-premesis ID's with AWS (Console & CLI)
 - The Identity Provider must support or be SAML 2.0 compatible 
 - Single source of truth for managing identiites
-- More that 5,000 users (IAM user hard limit)
+- More that `5,000` users (IAM user hard limit)
 - Uses IAM Roles & AWS temporary credentials (up to 12hr validity)
