@@ -1,7 +1,7 @@
 # AWS Aurora
 
 - Aurora architecture is `very` different from RDS
-- Uses a "`Cluster`"
+- Uses a `"Cluster"`
 - A single `primary` instance + 0 or more `replicas`
 - replicas can be used for reads
 - No local storage - uses cluster volume
@@ -39,3 +39,6 @@
 - Cluster endpoint is used to write, read endpoint is used for load balanced reads
 - Failover takes time - replica promoted to R/W
 - In Multi-Master mode `all instances are R/W`
+- 
+
+## Single Master 

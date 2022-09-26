@@ -12,7 +12,7 @@
 - LSI is an alternative view for a table
 - `MUST` be created with a table
 - 5 LSI's per base table
-- Alternative `SK` on the table
+- `Alternative SK` on the table
 - `Shares` the `RCU` and `ECU` with the `table`
 - Attributes - ALL, KEYS_ONLY & INCLUDE
 

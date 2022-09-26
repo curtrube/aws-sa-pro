@@ -13,7 +13,7 @@
 ### Query
 
 - most efficient operation in DynamoDB
-- Query accepts a single PK value and *optionally* a SK or range.
+- Query accepts a `one PK`value and *optionally* a SK or range.
 - Capacity consumed is the size of `all returned items`
 - Further filtering discards data - capacity is still consumed.
 - `Can ONLY query on PK or PK and SK`

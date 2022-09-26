@@ -14,8 +14,9 @@
 ### Multi-AZ Instance
 
 - Create a `primary DB` instance and a `standby DB` instance in a `different AZ`
+- Automatic database failover within 60 seconds
 - `Synchronous replication` between the primary and stanby db instance (`near real time replication`)
-- The standby instance does not improve performance, only avaiable in the event the primary goes down.
+- The standby instance does not improve performance, only availability in the event the primary goes down.
 
 ## Important Points
 
